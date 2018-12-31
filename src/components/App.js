@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {TopNavBar} from './TopNavBar'
+import {Main} from './Main'
 
 import nba from 'nba';
 window.nba = nba;
@@ -8,10 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <TopNavBar/>
-
-        <p className = "App-intro">
-            Edit<code>src/App.js</code> and save to reload.
-        </p>
+        <Main/>
       </div>
     );
   }

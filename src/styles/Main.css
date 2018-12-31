@@ -1,0 +1,7 @@
+.main {
+    border: 1px #ccc solid;
+    width: 750px;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 3px 5px 10px #999;
+}
