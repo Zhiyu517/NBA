@@ -1,8 +1,10 @@
 .main {
-    border: 1px #ccc solid;
+    display: flex;
     width: 750px;
     margin: auto;
-    border-radius: 30px;
-    box-shadow: 3px 5px 10px #999;
-    display:flex;
+    border: 3px solid #ccc;
+    box-shadow: 5px 10px 10px #888;
+    border-radius: 10px;
+    margin-top: 70px;
+    overflow: hidden;
 }
